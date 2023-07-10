@@ -19,21 +19,23 @@ class MyApp extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(
           items: const [
             BottomNavigationBarItem(
-                label: 'Home',
-                icon: Icon(
-                  Icons.home,
-                  color: Color(0xFF546E7A),
-                  size: 24.0,
-                  semanticLabel: 'Text to home page',
-                )),
+              label: 'Home',
+              icon: Icon(
+                Icons.home,
+                color: Color(0xFF546E7A),
+                size: 24.0,
+                semanticLabel: 'Text to home page',
+              ),
+            ),
             BottomNavigationBarItem(
-                label: 'Settings',
-                icon: Icon(
-                  Icons.settings,
-                  color: Color(0xFF546E7A),
-                  size: 24.0,
-                  semanticLabel: 'Text to settings page',
-                ))
+              label: 'Settings',
+              icon: Icon(
+                Icons.settings,
+                color: Color(0xFF546E7A),
+                size: 24.0,
+                semanticLabel: 'Text to settings page',
+              ),
+            )
           ],
         ),
       ),
