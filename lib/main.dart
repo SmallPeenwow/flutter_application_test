@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('App Title'),
         ),
-        body: const Text('Body'),
+        body: const Center(child: Text('Body')),
         bottomNavigationBar: BottomNavigationBar(
           items: const [
             BottomNavigationBarItem(
