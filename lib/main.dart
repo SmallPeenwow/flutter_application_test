@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> {
                     ],
                   ),
                 )
-              : Image.network('https://picsum.photos/250?image=9'),
+              : Image.asset('images/sixsixsix.png'),
         ),
         bottomNavigationBar: BottomNavigationBar(
           items: const [
